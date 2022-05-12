@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 browser = webdriver.Firefox()
@@ -10,7 +9,6 @@ cookieButton = browser.find_element_by_xpath('//*[@id="sp-cc-accept"]')
 buyButton = browser.find_element_by_xpath('//*[@id="buy-now-button"]')
 cookieButton.click()
 buyButton.click()
-wait = WebDriverWait(browser, 10)
-buyButton = wait.until(EC.element_to_be_clickable(By.ID, "buy-now-button"))
+
 
 
