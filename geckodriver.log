@@ -157,3 +157,257 @@ JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_
 JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1652355760698	Marionette	INFO	Stopped listening on port 55584
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652385034863	geckodriver	INFO	Listening on 127.0.0.1:49793
+1652385038039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49794" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofile2c20tu"
+1652385038753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofile2c20tu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49794/devtools/browser/48a389b7-e1a7-4f56-9700-9e8876b5f52d
+1652385041335	Marionette	INFO	Listening on port 49820
+Read port: 49820
+1652385041414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 10467 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB094WRT8PD%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DPQ3uo8ljoIwNehPAAZsS3YnHwKd3C8JPX4imylyb%25252Fjq6nDyqjQuLllblPr0%25252BBbfNFnOL%25252BiBvaW2jXaTiMwTQEr9M%25252FNLBn3E0gHsPDhoM09q2%25252FL7et5hGPVR8mQVQD1U09tgmxxQpvPA%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xac573d74%2529%26quantity%3D1%26sessionID%3D257-9453687-2759055&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652385048112	Marionette	INFO	Stopped listening on port 49820
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 6248, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652444824996	geckodriver	INFO	Listening on 127.0.0.1:65070
+1652444828125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65071" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilewOIU2G"
+1652444828781	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilewOIU2G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65071/devtools/browser/5f757714-2169-4dd0-acea-f89db878a4ea
+1652444832577	Marionette	INFO	Listening on port 65094
+Read port: 65094
+1652444832659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9809 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+1652444851516	Marionette	INFO	Stopped listening on port 65094
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6012, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652445134259	geckodriver	INFO	Listening on 127.0.0.1:65248
+1652445137334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilebvXG7V"
+1652445137832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilebvXG7V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65249/devtools/browser/e6213c34-cba8-4d10-815b-fd6408c3475b
+1652445140163	Marionette	INFO	Listening on port 65271
+Read port: 65271
+1652445140239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9754 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445154438	Marionette	INFO	Stopped listening on port 65271
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652445183520	geckodriver	INFO	Listening on 127.0.0.1:65331
+1652445186608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65332" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileUMB3EY"
+1652445187150	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileUMB3EY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65332/devtools/browser/c4f55665-1b9c-4353-82c6-c306f7ac1141
+1652445189538	Marionette	INFO	Listening on port 65354
+Read port: 65354
+1652445189571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9700 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445198986	Marionette	INFO	Stopped listening on port 65354
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652445351256	geckodriver	INFO	Listening on 127.0.0.1:65420
+1652445354334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilex6Zzz0"
+1652445354826	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilex6Zzz0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65421/devtools/browser/d5bfe5be-428c-4273-b7a9-b2fcacc3a9e7
+1652445357364	Marionette	INFO	Listening on port 65443
+Read port: 65443
+1652445357482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9717 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445368897	Marionette	INFO	Stopped listening on port 65443
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652445479483	geckodriver	INFO	Listening on 127.0.0.1:65506
+1652445482543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilevFZRaI"
+1652445483203	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilevFZRaI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65507/devtools/browser/bb42acca-2f5a-4aa4-881c-6ac286cbcd8c
+1652445485636	Marionette	INFO	Listening on port 65530
+Read port: 65530
+1652445485697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9679 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445497678	Marionette	INFO	Stopped listening on port 65530
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652445540553	geckodriver	INFO	Listening on 127.0.0.1:49212
+1652445543632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileU3qO2c"
+1652445544262	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileU3qO2c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49213/devtools/browser/dc662009-bd7c-431f-b3fa-a901912ab8c1
+1652445546928	Marionette	INFO	Listening on port 49235
+Read port: 49235
+1652445546994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9593 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445577615	geckodriver	INFO	Listening on 127.0.0.1:49402
+1652445580709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49403" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilefpgpOx"
+1652445581337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilefpgpOx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49403/devtools/browser/8ad67caa-c5a2-4936-a2fc-6605245e62a7
+1652445584041	Marionette	INFO	Listening on port 49688
+Read port: 49688
+1652445584155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9694 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://www.amazon.de/DualSense-Wireless-Controller-Cosmic-PlayStation/dp/B094WRT8PD/ref=pd_sim_sccl_1_3/260-5777354-5953213?pd_rd_w=3ez3l&pf_rd_p=96527118-ae73-4a18-939d-14eb43bee5ae&pf_rd_r=P9AS1Q9ZY85CP5N24FBD&pd_rd_r=fa82c0f1-a036-4d86-8332-c2e00d6b71cd&pd_rd_wg=yDghL&pd_rd_i=B094WRT8PD&th=1 line 9546 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445652243	Marionette	INFO	Stopped listening on port 49688
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652445724384	geckodriver	INFO	Listening on 127.0.0.1:59048
+1652445727454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofile0awd6j"
+1652445727963	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofile0awd6j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59049/devtools/browser/b59e15a2-024d-44b1-ada7-73ead661ac23
+1652445730490	Marionette	INFO	Listening on port 59071
+Read port: 59071
+1652445730559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17174 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445738062	Marionette	INFO	Stopped listening on port 59071
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652445802980	geckodriver	INFO	Listening on 127.0.0.1:59134
+1652445806031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileZmhNvm"
+1652445806563	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileZmhNvm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59135/devtools/browser/44a40356-8bb8-4bff-85ba-9024cf2d764a
+1652445809085	Marionette	INFO	Listening on port 59156
+Read port: 59156
+1652445809169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17121 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445818857	Marionette	INFO	Stopped listening on port 59156
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652445922353	geckodriver	INFO	Listening on 127.0.0.1:59226
+1652445925433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofile4r3mqM"
+1652445926150	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofile4r3mqM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59227/devtools/browser/4aeaa493-25f4-4ffb-9eb2-e76ccf1a5aa5
+1652445928857	Marionette	INFO	Listening on port 59249
+Read port: 59249
+1652445929010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17050 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445956587	Marionette	INFO	Stopped listening on port 59249
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 14980, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652445980053	geckodriver	INFO	Listening on 127.0.0.1:59332
+1652445983155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59333" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileC3kmTj"
+1652445983693	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileC3kmTj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59333/devtools/browser/ee38e3a4-a67e-4383-94c3-9d108606aec2
+1652445986376	Marionette	INFO	Listening on port 59356
+Read port: 59356
+1652445986488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17174 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652445994789	Marionette	INFO	Stopped listening on port 59356
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652446222457	geckodriver	INFO	Listening on 127.0.0.1:59463
+1652446225542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59464" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilelN5RlZ"
+1652446226010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilelN5RlZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59464/devtools/browser/093c74af-bb63-4cce-b506-a03f8fcec864
+1652446228730	Marionette	INFO	Listening on port 59488
+Read port: 59488
+1652446228841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16954 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DeZwpNi7Fz44ZYCRNGetzMH4zH56ZK252gOsK7e2pysW%25252BClOL%25252B8AqQtJ7T36pFIBtlIyUOMf78qrg9XgFBSfTus4UODVTAD%25252B90psoVxKufIoty05hRgCF0a8cMtyeuhdNZ6pxX%25252BdnE1o%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa2304a8c%2529%26quantity%3D1%26sessionID%3D259-1595949-8731630&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652446246389	Marionette	INFO	Stopped listening on port 59488
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652446273973	geckodriver	INFO	Listening on 127.0.0.1:59540
+1652446277059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59541" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileOhVlJK"
+1652446277558	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileOhVlJK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59541/devtools/browser/d5fe8320-a3cf-42c9-afe1-cf1185dab70f
+1652446280011	Marionette	INFO	Listening on port 59563
+Read port: 59563
+1652446280097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17165 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DW5j237E7L4SOeDnCeYaG7t%25252B6oO891wC9mJR8PqywPz1IYrmJot9kI4pJ7aS%25252FBSAWZdqM7fP10qNHHN8ywQXjJ%25252FMdG%25252BSJ9dd8x16XdiweFVw9%25252Fr5g%25252BzXhaUcLHfxuwAvaGfJAMDxtjKQ%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x932f3c00%2529%26quantity%3D1%26sessionID%3D257-1076817-4311455&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17111 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+1652446306127	Marionette	INFO	Stopped listening on port 59563
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652446564643	geckodriver	INFO	Listening on 127.0.0.1:59723
+1652446567757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59724" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilebXN5DQ"
+1652446568256	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofilebXN5DQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59724/devtools/browser/4df8cf7d-303c-4cae-8502-5c2800bb433c
+1652446570815	Marionette	INFO	Listening on port 59746
+Read port: 59746
+1652446570947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652446580459	Marionette	INFO	Stopped listening on port 59746
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652446602966	geckodriver	INFO	Listening on 127.0.0.1:59771
+1652446606054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59772" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileW4Wz19"
+1652446606586	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileW4Wz19\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59772/devtools/browser/0a41f794-1533-4809-8301-36012c085236
+1652446609135	Marionette	INFO	Listening on port 59795
+Read port: 59795
+1652446609266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17032 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DiysU512oxcjtWulY8B%25252Fo9Oz9TFo%25252FU%25252FVKz1su1%25252BP8CawD6fgxsYcvg4Yf3SOyfRZefgVX7kRvhKbJj8b2JRMZPpVK84lnMgO1bkmA1IiJELqcT9%25252B%25252B%25252FGFMGYGJ%25252BhPVE87XkJszuSeV3uk%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xaf286b88%2529%26quantity%3D1%26sessionID%3D260-8423348-3252653&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652446619116	Marionette	INFO	Stopped listening on port 59795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652446627087	geckodriver	INFO	Listening on 127.0.0.1:59853
+1652446630166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59854" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileoweF25"
+1652446630732	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leo\\AppData\\Local\\Temp\\rust_mozprofileoweF25\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59854/devtools/browser/1e547bbe-baff-4f69-a808-422c47a5e1d5
+1652446633444	Marionette	INFO	Listening on port 59877
+Read port: 59877
+1652446633600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17112 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DdU5ARtGuRO5Qwrkfyzi9YcsfyvUeVya5lVZVFNZK8iZZDKonGFH%25252F6vM0BGNl05ZLFVOh2MIGXTA2sgpgJfWcLdDUBYPyAIaE6YnM0bkm%25252Fp2e4CBOIsxYlNyISP73xNAvfSVcWzUoQvE%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa0efe810%2529%26quantity%3D1%26sessionID%3D261-6479616-7176100&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17038 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+1652446657710	Marionette	INFO	Stopped listening on port 59877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 8200, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
