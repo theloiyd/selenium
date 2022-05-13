@@ -411,3 +411,933 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
 [Parent 8200, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652457701791	geckodriver	INFO	Listening on 127.0.0.1:49378
+1652457704857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile4TeZ59"
+1652457705554	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile4TeZ59\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49379/devtools/browser/8a1bf6f3-d990-42f2-9fcb-21e58cf1058b
+1652457707324	Marionette	INFO	Listening on port 49402
+Read port: 49402
+1652457707371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17041 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652457711291	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652457709757:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:4294967298"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652458449732	Marionette	INFO	Stopped listening on port 49402
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 20632, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DWGflibj%25252FO03wB4MxlZeSqD%25252BoAXgL5nSW70EUDZU62crsZNK8Gq3J%25252F41NfPtKmNSP7vUbfJOYH3XAnq4glkLPhZLjUYoDrUeTR98Zk%25252FMYwy%25252B6egNiLEXNAjndS8SrfKMn6baRT6T3O7w%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9fc334f8%2529%26quantity%3D1%26sessionID%3D259-9607589-5148655&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17137 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+1652457826834	Marionette	INFO	Stopped listening on port 49519
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652457894844	geckodriver	INFO	Listening on 127.0.0.1:49661
+1652457897890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49662" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile9vCyPj"
+1652457898152	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile9vCyPj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49662/devtools/browser/ae03db49-b692-4d05-82c8-0a27d36f0f72
+1652457899533	Marionette	INFO	Listening on port 49690
+Read port: 49690
+1652457899644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16939 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DLSCLiR0vWarivsakXs17mp4ZbUqDUMNGTgg06z3jSH3QYL6WIhnRJxrUvRxUtGV7jYc62r777eU29N4KDPayZe9AvrGqdJx%25252F4vlDRH025cYS5a%25252Btdyp9di03a9m3OQ8CET4%25252FhE%25252BE3Gc%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xac688144%2529%26quantity%3D1%26sessionID%3D258-1258796-1866052&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652457921596	Marionette	INFO	Stopped listening on port 49690
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 288, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652457946142	geckodriver	INFO	Listening on 127.0.0.1:49761
+1652457949188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49762" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilehZsfx1"
+1652457949468	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilehZsfx1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49762/devtools/browser/7f7fe235-8c56-483d-8e8d-45360438d7cd
+1652457950781	Marionette	INFO	Listening on port 49786
+Read port: 49786
+1652457950824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652458008911	Marionette	INFO	Stopped listening on port 49786
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 9184, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 9184, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652458101748	geckodriver	INFO	Listening on 127.0.0.1:49873
+1652458104785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49874" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileL2D16e"
+1652458105053	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileL2D16e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49874/devtools/browser/abb92dc3-f6bc-4c28-a705-ade5703b82a0
+1652458106421	Marionette	INFO	Listening on port 49892
+Read port: 49892
+1652458106528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652458113345	Marionette	INFO	Stopped listening on port 49892
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652458191747	geckodriver	INFO	Listening on 127.0.0.1:49987
+1652458194788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilevSawNA"
+1652458195080	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilevSawNA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49988/devtools/browser/4e4041d0-84f8-4cb2-8f94-384e54140dc6
+1652458196405	Marionette	INFO	Listening on port 50007
+Read port: 50007
+1652458196425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652458452316	Marionette	INFO	Stopped listening on port 50007
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile2GGj0f"
+1652458250760	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile2GGj0f\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50051/devtools/browser/966bd424-9907-412b-b24b-8152b4c926f8
+1652458252195	Marionette	INFO	Listening on port 50067
+Read port: 50067
+1652458252299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652458258461	Marionette	INFO	Stopped listening on port 50067
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652458335243	geckodriver	INFO	Listening on 127.0.0.1:50107
+1652458338292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50108" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileMT6P3H"
+1652458338568	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileMT6P3H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50108/devtools/browser/6a213e89-dd82-4bde-8a65-1967399f3d17
+1652458339927	Marionette	INFO	Listening on port 50129
+Read port: 50129
+1652458340034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17041 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652458346086	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652458344701:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+1652458349863	Marionette	INFO	Stopped listening on port 50129
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652458454989	geckodriver	INFO	Listening on 127.0.0.1:50210
+1652458458036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileT6cBZP"
+1652458458354	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileT6cBZP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50211/devtools/browser/0e3324d8-c776-4e8c-bd84-df03a8b76be5
+1652458459834	Marionette	INFO	Listening on port 50233
+Read port: 50233
+1652458459903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15728 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652458465920	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652458464201:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.error: "Unable to find target with innerWindowId:4294967298"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DIZBDzHYAMv8PaZyzP0LRj%25252BpmCzQ8FNu%25252ByyBbLIbbA4XtSx93qk43CGWkKLrasI1M6xrVs633rDMX%25252F5ajPs5Ir4fCDtCOqqzPOgrR2N0okXsvYmncFKiqXnunIwX5dJSWxJcvInwjgaU%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x8e4ad72c%2529%26quantity%3D1%26sessionID%3D258-5720853-8837514&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://autofill/FormAutofillChild.jsm, line 108: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652459119827	Marionette	INFO	Stopped listening on port 50233
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+m Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50632" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile3KmwnR"
+1652458915488	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile3KmwnR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50632/devtools/browser/0ab40d05-4ba8-4703-818d-6e0b6f4aa618
+1652458916865	Marionette	INFO	Listening on port 50655
+Read port: 50655
+1652458916943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652458929727	Marionette	INFO	Stopped listening on port 50655
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652459006687	geckodriver	INFO	Listening on 127.0.0.1:50689
+1652459009749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50690" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofiledlqndv"
+1652459010037	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofiledlqndv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50690/devtools/browser/2b28b3f6-a0d2-4a02-b690-aa20824154a0
+1652459011575	Marionette	INFO	Listening on port 50714
+Read port: 50714
+1652459011630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17105 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DBN5mOQOxskq7q5BW0BeRLIZF%25252FZYrP%25252B%25252BZ2qyH6Ecwi5gVr5hW%25252BHQSV0b9fY81nEmEQ7K3j3FRs%25252Fs2B0Tm5rC2FhdIxBfXxHLHAWe%25252BfAk9VfCrbZduD6A60hnaUHlZ5t2g0Ek1Hd%25252BBK1k%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xab274804%2529%26quantity%3D1%26sessionID%3D259-2610955-6008211&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17001 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459120252	Marionette	INFO	Stopped listening on port 50714
+1652459169358	geckodriver	INFO	Listening on 127.0.0.1:50883
+1652459172398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofiler1Q7y5"
+1652459172679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofiler1Q7y5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50884/devtools/browser/28ae676c-6f52-41ea-a481-61ed4f672ac8
+1652459174106	Marionette	INFO	Listening on port 50906
+Read port: 50906
+1652459174144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17020 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DHzBzEJMLx7mZDBnt4xn8Q%25252F5YDfiLRBOLcIcNYHzUabM0I%25252BZxr6KrxAsQk7LaCir4OUGTKs5daDJRNEajRBZ%25252BWschyEu2Hrr4yQAFWsKQm%25252BC75AJPjQzXa6MFyWitLzw8WFVgQA3GX5M%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9e3f4d38%2529%26quantity%3D1%26sessionID%3D258-3217638-5112366&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459391305	Marionette	INFO	Stopped listening on port 50906
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileqBi39n"
+1652459224581	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileqBi39n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50967/devtools/browser/6a7d25da-a4a8-4975-ac37-b66f43444cb7
+1652459225972	Marionette	INFO	Listening on port 50987
+Read port: 50987
+1652459226056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17227 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D78%25252FP%25252BFPdSJ2%25252FxdlbALLYkJEPlVctuTehlY3ej%25252Bl9rCPH8SwM8ctIB0ytyVjbKJ5MzaDWp8v%25252BTkDA4vlW9%25252B7LOxL2Jpg6GUgJ%25252Fg%25252F9WIJg8UOMoIR6En%25252Bv2Pd3KDxsJm6cQhe%25252BfkkYViQ%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9fbe6288%2529%26quantity%3D1%26sessionID%3D259-2633522-9783411&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17119 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459246290	Marionette	INFO	Stopped listening on port 50987
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 10864, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652459327807	geckodriver	INFO	Listening on 127.0.0.1:51139
+1652459330848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51140" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileDCDgR2"
+1652459331114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileDCDgR2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51140/devtools/browser/4f32ec07-4cb4-40f1-b8e6-5f9cf23282bc
+1652459332489	Marionette	INFO	Listening on port 51160
+Read port: 51160
+1652459332592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17087 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DUZF6zw5GoULHfy3%25252BM8fvJ9KxUxB0ZVntL4dASGeDQz1zo3sRvFgIVUqOXAnF5RNLpXpHcBrkwuIHkgiItBMEEILp1CgvX9JC1sRiX3FkLYdghNhkdA3LbPd9zxHi1AuSnF23wQxHFIE%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb298f378%2529%26quantity%3D1%26sessionID%3D259-8286414-2718615&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16998 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459349053	Marionette	INFO	Stopped listening on port 51160
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 26088, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652459392620	geckodriver	INFO	Listening on 127.0.0.1:51297
+1652459395685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilemNo5Gy"
+1652459395945	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilemNo5Gy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51298/devtools/browser/a9beaf70-859e-4646-b794-32aff5c04f0a
+1652459397265	Marionette	INFO	Listening on port 51318
+Read port: 51318
+1652459397324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16948 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DKLFBW4gIv40gfmlE%25252BJU3nA1WZwsWRRdHKSryBMiOBH5L7cf8xTpOBmycP9i5toMEgNOpU2RQVunh1L%25252FFbBNX2MNlvJ2hW99hmWEDrBjph3Cxqiovoek6F8BNt38qtPxOrI%25252Fi6QBrFxs%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x993ffa2c%2529%26quantity%3D1%26sessionID%3D261-6996837-4683562&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16859 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652459466137	Marionette	INFO	Stopped listening on port 51318
+ad82-1b61bf48a31d
+1652459434388	Marionette	INFO	Listening on port 54109
+Read port: 54109
+1652459434474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17027 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+1652459437985	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652459437085:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+1652459449897	Marionette	INFO	Stopped listening on port 54109
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 12304, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652459461933	geckodriver	INFO	Listening on 127.0.0.1:54172
+1652459464989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilevtDaRh"
+1652459465245	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilevtDaRh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54173/devtools/browser/5b327fe2-fa25-48ff-aece-982a78421874
+1652459466742	Marionette	INFO	Listening on port 54195
+Read port: 54195
+1652459466844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17172 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DQHMqwdBFsb7nWJses4vYx7ODZ7OZm%25252FUkRKrDFVNANFtFgBDnY0xiOkH1tRNhDt%25252BokScN8mwzmKgM1wWu9TYqG01RfxnCtougzmBN22%25252FyPYu2W0Yi4jQfKnooffOAiO2osCgoqoU%25252F%25252B2k%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xafae1744%2529%26quantity%3D1%26sessionID%3D259-7850135-5752843&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17068 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459487045	Marionette	INFO	Stopped listening on port 54195
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652459515228	geckodriver	INFO	Listening on 127.0.0.1:54339
+1652459518276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54340" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileTkk119"
+1652459518537	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileTkk119\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54340/devtools/browser/bcb1f902-f8e8-4400-8bb1-536c4283d695
+1652459520018	Marionette	INFO	Listening on port 54360
+Read port: 54360
+1652459520127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17182 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459522853	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652459521795:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459793323	Marionette	INFO	Stopped listening on port 54360
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54427" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileTYSGwY"
+1652459554869	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileTYSGwY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54427/devtools/browser/5fece86a-c2e4-40c7-ae14-08011aa99f53
+1652459556211	Marionette	INFO	Listening on port 54447
+Read port: 54447
+1652459556252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17162 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3Dm%25252BKb4USeVNX5Q8V1j8P6CqPtlE2vCP6EPREioGgHTOIgBoA5ux36w5%25252FeUT5LK1p99ALj3pCgtaTgvc2e6ea1hxhKuynyAccGVK8DwZxWTtd0078olF6ns933HB0T2Z4ZjO2EU1AjOhs%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xaa803a8c%2529%26quantity%3D1%26sessionID%3D257-9698817-6699618&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17070 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652459792776	Marionette	INFO	Stopped listening on port 54447
+S certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17082 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DJ20wDOgW2I1FKTPJxrOVTGE1ozvqXqRCyFJDGIQWeoh%25252B3sE7p4yer35K9aSMyu7hHVq%25252BAv8DIfK1WrbaniYYKVp1w5dPbUj%25252F9oT%25252Bta26PBbO07CQZSnZLnExh5%25252FZGvnWNMawJlj3Jfo%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb4095c84%2529%26quantity%3D1%26sessionID%3D259-7554795-7689039&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1343 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1384 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16986 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459617218	Marionette	INFO	Stopped listening on port 54602
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 25480, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652459729012	geckodriver	INFO	Listening on 127.0.0.1:54745
+1652459732049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54746" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileC6HzKg"
+1652459732305	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileC6HzKg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54746/devtools/browser/1bf9c8a3-3b9e-455a-b68a-b72a89528e7a
+1652459733676	Marionette	INFO	Listening on port 54766
+Read port: 54766
+1652459733792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17165 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DHdKaS%25252FFRTTLwhTLKy4cgbx9PQQb8UfytEZBG5GJ9IryO3izR2v2f3qOZEYY5m7yprJEm%25252Fi6sKRH4p2ycsFwjNTmVAad5jKdOrXnjqkbuqd9CXmaQLbVi5tkW4XPAWYTz2BZHsFtpcEA%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb31fbbb8%2529%26quantity%3D1%26sessionID%3D260-7629159-9846731&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17076 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459745203	Marionette	INFO	Stopped listening on port 54766
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3368, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652459754359	geckodriver	INFO	Listening on 127.0.0.1:54898
+1652459757393	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile5GlegO"
+1652459757660	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile5GlegO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54899/devtools/browser/53629df2-bd80-464c-b614-93b8b0b5bfb3
+1652459759002	Marionette	INFO	Listening on port 54919
+Read port: 54919
+1652459759033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17025 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3Di2YdYO1wH4hNWplR5kN4JguqsTYfGV9r5XMHO4qXkNcQqw8dArBIFprwCTsZ%25252FASIRZjiaHHlSqdKuVNgkpA3H%25252Bw8qdPEDPq0oub7BlLa8HrmYgU2Fr9MdIzJI6wB08hP41fDSYDr%25252FPc%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xacb104a4%2529%26quantity%3D1%26sessionID%3D257-5184725-8802221&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16929 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459794249	Marionette	INFO	Stopped listening on port 54919
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 8584, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652459812323	geckodriver	INFO	Listening on 127.0.0.1:55063
+1652459815365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileJF1HN4"
+1652459815619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileJF1HN4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55064/devtools/browser/2ed181c6-4fe7-4502-abd7-7fac25824545
+1652459816940	Marionette	INFO	Listening on port 55087
+Read port: 55087
+1652459817001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17251 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DYBtbAaw0fhAO1EB%25252FevRljwHqrIGxyzMOeaMTlzX%25252FMR9XbhJA28%25252BOHA0VhSyZn2MlX70nd8ZnHOk1ZxX10LewdECs%25252FqdnDVJ1xsY179A2sqrpDncfp4INuWR8qrXKVC4HL%25252FckX0GblZ4%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xab63e048%2529%26quantity%3D1%26sessionID%3D260-0276541-6319317&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17163 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459838192	Marionette	INFO	Stopped listening on port 55087
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 27292, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652459875530	geckodriver	INFO	Listening on 127.0.0.1:55216
+1652459878578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileg6CKwZ"
+1652459878838	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileg6CKwZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55217/devtools/browser/ae29cd16-a560-4117-bf6f-bc8cfbf64ad1
+1652459880178	Marionette	INFO	Listening on port 55237
+Read port: 55237
+1652459880213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17196 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DwGeiSZ2xDdjM1eltUJDGXpnxoZ9EdGL9KFU0DkD%25252Fef5PY%25252BQScsaBociwBOnCng%25252BFFAPySUmCMVx5TkRnvUFyO9GsSAVATbvMoVIqZQYWF4lkTtQroWNe5k%25252BTGGncdK5j8AH3y9X8vXk%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x8e5ecba0%2529%26quantity%3D1%26sessionID%3D261-8522170-1446007&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1343 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1384 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17135 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460363075	Marionette	INFO	Stopped listening on port 55237
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "55353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileWKfTlK"
+1652459912706	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileWKfTlK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55353/devtools/browser/dc92cfdc-342e-46e1-99f0-fed82ee75000
+1652459914059	Marionette	INFO	Listening on port 55373
+Read port: 55373
+1652459914085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17162 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DEZ%25252BLKeBlRa%25252BPvWWBAPXMqw5UnFkTH6wv2NdiXc%25252FAY%25252FCyx%25252BWbKeK87ow%25252FomB6LOJ7a9kv5UnnvIU9dlZ1MZc4M6zfrQq0BCPhSyoqV0XTBGmpAQ5QHBKkkwD6nM%25252BvM6HHiNKX3FMP4Hc%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb5510ac8%2529%26quantity%3D1%26sessionID%3D259-3396479-3073310&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17097 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460364382	Marionette	INFO	Stopped listening on port 55373
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 1648, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 1648, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55532/devtools/browser/283b55ed-d140-4d0b-bc33-858617f14cde
+1652460144107	Marionette	INFO	Listening on port 55558
+Read port: 55558
+1652460144156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17005 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DJhlVyKwobyK4%25252BH1oaW1Ey7i%25252Fkq1ICE7SGUPX5udAZsdcaQDvetcSv225R8CFwIQSEowmXemonw03LK6uBq2BYNYJii5KTq%25252B4wuw8e7pu7mFeiTtwWMXRsdm41nf8LHe%25252FW1bIS4%25252Fc540%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa6809a38%2529%26quantity%3D1%26sessionID%3D258-3205535-0709611&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DJhlVyKwobyK4%25252BH1oaW1Ey7i%25252Fkq1ICE7SGUPX5udAZsdcaQDvetcSv225R8CFwIQSEowmXemonw03LK6uBq2BYNYJii5KTq%25252B4wuw8e7pu7mFeiTtwWMXRsdm41nf8LHe%25252FW1bIS4%25252Fc540%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa6809a38%2529%26quantity%3D1%26sessionID%3D258-3205535-0709611&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16916 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460366715	Marionette	INFO	Stopped listening on port 55558
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 27136, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ew profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileDNDNs9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55699/devtools/browser/627fa38d-1beb-49fc-8d32-446c79367987
+1652460331329	Marionette	INFO	Listening on port 55719
+Read port: 55719
+1652460331361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17033 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DR2FVec9BFzVhKzzdBbGMvZOUWku98L1EQkfd%25252F1Rqc1SU72c92P9IhsnYsi6LCPhWTcYar%25252FNoURkcX9gIlvZM66nhEN96tgZgrz%25252BQ6MO3rI8gwig4L27V38ftIQhcAMV3pd3wZi7Mxzg%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa907e684%2529%26quantity%3D1%26sessionID%3D262-7681774-6643763&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16929 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460365954	Marionette	INFO	Stopped listening on port 55719
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ileIroMmF"
+1652460363978	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileIroMmF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55830/devtools/browser/c2a57d68-61e3-4d52-9c56-45d9885a6b2b
+1652460365745	Marionette	INFO	Listening on port 55867
+Read port: 55867
+1652460365862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17251 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460369140	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652460368303:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+1652460376475	Marionette	INFO	Stopped listening on port 55867
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 28552, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652460383444	geckodriver	INFO	Listening on 127.0.0.1:55940
+1652460386494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileOXF8g9"
+1652460386772	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileOXF8g9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55941/devtools/browser/247cd7e8-ccf0-4fc9-9124-1569e0575b15
+1652460388084	Marionette	INFO	Listening on port 55961
+Read port: 55961
+1652460388133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17035 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DtAbPXnYs68jURmv2kqoDM5m%25252BKzyr0Kk0W6If45Cy%25252FOX93dHPs0SGHi2TIz6WYK8%25252B6a3dNAyLZmiLGlYbArk5p7PJrSZTv4CD6nzzbhLzdgX%25252F2gHu2SKB%25252BUYRlOEzzaY68zpSogeJJqQ%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x8ed44714%2529%26quantity%3D1%26sessionID%3D257-2735549-4267241&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16946 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16952 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460403648	Marionette	INFO	Stopped listening on port 55961
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652460441922	geckodriver	INFO	Listening on 127.0.0.1:56093
+1652460444975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56094" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilejHHXFr"
+1652460445279	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilejHHXFr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56094/devtools/browser/559995b2-9569-46e0-8f65-ef7ca2d4aeba
+1652460446609	Marionette	INFO	Listening on port 56115
+Read port: 56115
+1652460446718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17102 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DDTYiCeaZfRVT%25252FggEN6FzJoEeSA2MxnEqOBmzEf%25252Fncy6xNWCOAZ7nlAAnEbL3Si%25252FUsu5I2dQQZ0%25252F66cMGE3SyJIWXboSfoKnPzc5lgybWkanzEO9ZNrQYr8wnQDvxnJ1Btr28SQwe1PQ%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xafd5d648%2529%26quantity%3D1%26sessionID%3D257-5628451-3865206&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17021 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1652460541693	Marionette	INFO	Stopped listening on port 56115
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17212 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DcTuqGdKHUiY5n8fcbtYGfVH%25252BDyUNzxs%25252BKgaOUbcGZJn2zyS3eWwrbKw1ArruF0g6WxPU9y%25252F6qEID1J%25252FtUcXKjT02SeMfH9bd%25252BC4qnsCy4NVULBDAsNnmIFErTrg1t%25252Bll5Ip5jPhRMtI%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9c2162c4%2529%26quantity%3D1%26sessionID%3D258-2471384-0766730&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1343 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1384 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17116 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460542165	Marionette	INFO	Stopped listening on port 56260
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652460586219	geckodriver	INFO	Listening on 127.0.0.1:56403
+1652460589260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56404" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileFPvA8X"
+1652460589521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileFPvA8X\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56404/devtools/browser/32f3163b-951b-4e6d-8c4e-b2b3c4ccd418
+1652460591028	Marionette	INFO	Listening on port 56424
+Read port: 56424
+1652460591110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17102 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D3x7OxFyvNoim7HxvQF025WqU9XuFlcUgs%25252BY%25252FXiSpeygue1ZNjt97mAMW7dcMRQeKgIMFGFxxq8TZZp3BG18CTG7wSxaW%25252BCBRNwD9aXLJiQ26gLwsyZbRxMN7ieFog4RkNYNekIbFieA%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb4981354%2529%26quantity%3D1%26sessionID%3D260-1357462-6378653&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17048 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DlEN9CKfEaEB7z2TS5AwehWi6nSmwbbtVjmDqyRTu6hLQvGoJe7JfcDOyk7t9qDQx%25252BoLAHNGUr9VTRHjumDHt4PiRusF0T%25252FR8sMwPN7EQGUhe8Pwk1zOCq9RPv6TkbA%25252B8I5AsxY1jZGY%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9c2a7c6c%2529%26quantity%3D1%26sessionID%3D260-1357462-6378653&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+1652460602102	Marionette	INFO	Stopped listening on port 56424
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652460720289	geckodriver	INFO	Listening on 127.0.0.1:56502
+1652460723353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56503" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileQaJ5Tz"
+1652460723611	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileQaJ5Tz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56503/devtools/browser/2ef2476e-006c-4365-b147-5d850a01ece9
+1652460725047	Marionette	INFO	Listening on port 56524
+Read port: 56524
+1652460725101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17105 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D0Tco6HGVs700S47XV%25252BgCzyMNhMk29zno1J3CrzXE%25252FCwQvSyehmYL5QYGpgIrO2DRCE5QpYZqUmftzsINtuSMK2%25252BEkgE7Cv9D7xAf6%25252FvK59HGMDMfUYhLIOsn1J%25252FOcENecDX%25252Fnx47dNU%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x94fc4534%2529%26quantity%3D1%26sessionID%3D259-7516164-6066826&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460808639	Marionette	INFO	Stopped listening on port 56524
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "56583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileiakEZq"
+1652460753358	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileiakEZq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56583/devtools/browser/4c52557f-e41a-4aeb-a2c1-55e6a5bffe90
+1652460754837	Marionette	INFO	Listening on port 56603
+Read port: 56603
+1652460754954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17155 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D60a61A9bYNiykeW%25252Ftp2TV%25252FNimR9mEnOSw3ASiSXrFK7b0cTK%25252BNrbLYsFdxopuYdcotcuuO1CY%25252FWXNTQeXsjCqp0CVjp31QsO%25252FMXw00APcdJLinreTFuouYm6SUByYFz2NvjWf3qZmbo%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9cf0cdb0%2529%26quantity%3D1%26sessionID%3D259-3065663-9505524&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1343 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1384 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460765659	Marionette	INFO	Stopped listening on port 56603
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 10028, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652460792924	geckodriver	INFO	Listening on 127.0.0.1:56668
+1652460795964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileyqssAJ"
+1652460796227	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileyqssAJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56669/devtools/browser/fb86138f-0adc-4cf6-b145-44e0b4d3bbbc
+1652460797599	Marionette	INFO	Listening on port 56689
+Read port: 56689
+1652460797708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 16960 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DSoVgg7JCDLpAOF6JdyMFqm%25252F%25252B6cIMw3DUfffIPPahrYsD9pvbDP6%25252BvdfLglpwtSBcqUyuUJZO%25252B96e5Gyv%25252B%25252BVYtocO%25252BhK174d1qalL9gP7nyHV5r9wFtU%25252FpgH0wbG%25252FSRny3n00EWbyXeQ%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x93fa8d5c%2529%26quantity%3D1%26sessionID%3D261-0140140-9268554&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1343 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1384 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460809243	Marionette	INFO	Stopped listening on port 56689
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 28008, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652460845493	geckodriver	INFO	Listening on 127.0.0.1:56761
+1652460848535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56762" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileTQNI7o"
+1652460848790	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileTQNI7o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56762/devtools/browser/18f7cb5d-7eef-4574-987b-5c8ef71e694a
+1652460850137	Marionette	INFO	Listening on port 56782
+Read port: 56782
+1652460850170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17173 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DrCge9Um86FBdzDyb95vozkv9KtTAruBTIPSlEU7t%25252BgSYhtwTlCmZw6PIg6sxw%25252Fa2BJrqJoM2X1qXQMTMYk%25252BwSd0PDGZ%25252BttFlOjWJOl8s21IUjSTufGGMfWfakVMeiSRMiOrzalF087M%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x859f92b8%2529%26quantity%3D1%26sessionID%3D259-8358811-6210026&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17112 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460860881	Marionette	INFO	Stopped listening on port 56782
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 15076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652460892403	geckodriver	INFO	Listening on 127.0.0.1:56910
+1652460895440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56911" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilel4xzgW"
+1652460895703	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilel4xzgW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56911/devtools/browser/b61b211f-c0df-49de-82f4-91c12ce5cb92
+1652460897061	Marionette	INFO	Listening on port 56931
+Read port: 56931
+1652460897081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15809 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DEU3G6a0wJcboa8sdfPuBcB20mEfldnYfO4L9roo%25252BvFQ4giYQgfE%25252B6Kx7oq%25252F2hZpB%25252FqRznpYTu2tWstRH6I32hkufeAuszCPyarMUJykk6JND5hfVJ2CFqE8cVA6qKh%25252FkOQwAVSUqo5I%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa6172cf0%2529%26quantity%3D1%26sessionID%3D259-7609195-3286310&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15720 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460904988	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652460904354:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81ni9qFO8QL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460926706	Marionette	INFO	Stopped listening on port 56931
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 28052, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652460927762	geckodriver	INFO	Listening on 127.0.0.1:57059
+1652460930815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57060" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileVTYvZQ"
+1652460931078	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileVTYvZQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57060/devtools/browser/7f60d59d-6ecb-4350-b0ab-0add16d4ba05
+1652460932391	Marionette	INFO	Listening on port 57080
+Read port: 57080
+1652460932449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15671 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DZ8jiSrPvMeKaixEwDaIP9kDjWHB%25252BCH%25252B%25252FJHnOGXB%25252BBO%25252BJUtXOz%25252FnUm8sP54hNdU%25252FT3WhvlhtHy9e8ANBoQN5bovmZYyjX5DEVokZmVVqTXhpq44XXDBiAnndhVWGp0UwGPlRYnm0L7gc%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb223e3d8%2529%26quantity%3D1%26sessionID%3D257-0802797-4347802&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15584 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3De8dEMa%25252F7prhOtFr5qDOtJCk4u1CzTZZZXuzPGNZ07hYHFkppLbiJZgmRwre4LzcPt7Uth4gySs8wpzFeQdbwP%25252FsEkItu33fNcIWYzfZjoguK9Hf5aaC8TT88G28JE0pr8o8YfhZSvnQ%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x97ce3354%2529%26quantity%3D1%26sessionID%3D257-0802797-4347802&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15584 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DMZw1uwl%25252FckclXVIv4C9OQ2MXCMJxQ1Ms9PuAO165NjjJIuSbQa5cPct4i0bYB7mKtxEJJl04r1qXLSRyE0v5r4sy%25252Fg7MSbAeKT26%25252FaKI9v%25252FZmTfHm2C%25252BUYlGJroum95nehSDFJhUm1g%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9f62893c%2529%26quantity%3D1%26sessionID%3D257-0802797-4347802&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 15589 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DSt9VDTfwwVVAuPl97rPZv5mz4PAGz1g4tEab8pB2ozbZjR%25252FqoKGdhEYYMMFDlOpY5QkMxjwc7MwgguajmOBqnEEuhIQqcOEqUpJrr%25252FbMPlASz8rNvEe5aUPg8qtJihg4W%25252BddlBLXNCc%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9acb5c48%2529%26quantity%3D1%26sessionID%3D257-0802797-4347802&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652460948704	geckodriver	INFO	Listening on 127.0.0.1:57159
+1652460951752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57160" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilehr18wD"
+1652460952021	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilehr18wD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57160/devtools/browser/6e34dc0e-4b4f-4896-9501-c3cbcda99c46
+1652460953386	Marionette	INFO	Listening on port 57180
+Read port: 57180
+1652460953504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652460955118	Marionette	INFO	Stopped listening on port 57180
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 28020, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 28020, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652460992815	geckodriver	INFO	Listening on 127.0.0.1:57237
+1652460995865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57238" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilesiE9ZF"
+1652460996130	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofilesiE9ZF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57238/devtools/browser/62653c2a-8dd9-42f7-a50d-883e4804fb29
+1652460997465	Marionette	INFO	Listening on port 57258
+Read port: 57258
+1652460997502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17149 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DsQs4mdQvWZR1WkRSl5HESUjMlfB33ijFgUHEe3U6bDv%25252BqSgCyxOf%25252BHSDsId5F3IwBx32LpKaGPrSkA5R32NKCQkN9vP5sSoldhqmpUYvbIbAxSreVq%25252FGafTYI6P38XHf6VVRj1WhcJE%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x9b1bb8f4%2529%26quantity%3D1%26sessionID%3D262-1228001-1395227&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652461008366	Marionette	INFO	Stopped listening on port 57258
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 25160, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652461054049	geckodriver	INFO	Listening on 127.0.0.1:57338
+1652461057111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileRv9Q7e"
+1652461057382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofileRv9Q7e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57339/devtools/browser/39edf44f-bedb-414e-8628-3611bee3faea
+1652461058755	Marionette	INFO	Listening on port 57359
+Read port: 57359
+1652461058856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17114 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652461062225	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+send@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:178:253
+ajax@https://images-eu.ssl-images-amazon.com/images/I/61lJFOw4DrL.js?AUIClients/AmazonUIjQuery:172:373
+@https://d1nruqhae353qc.cloudfront.net/primesignup/de/widget.js?_=1652461061245:185:15
+l@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:89:228
+Y/</<@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:91:72
+ia@https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2:93:337
+1652461064772	Marionette	INFO	Stopped listening on port 57359
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10516, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1652461065932	geckodriver	INFO	Listening on 127.0.0.1:57419
+1652461068991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57420" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile0knNZv"
+1652461069251	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\leoce\\AppData\\Local\\Temp\\rust_mozprofile0knNZv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57420/devtools/browser/d2b532be-723d-4d76-bd5d-4de7f39fdc09
+1652461070622	Marionette	INFO	Listening on port 57440
+Read port: 57440
+1652461070734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17189 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DDRm%25252BOe8kTF80xPfWW04wwOxyx2g093%25252F%25252F7rijJgm0eA0eiipXzb2CPwueIvZ8E6fc%25252B26Jwz95yo928msA7%25252BIwieVBgrP9M22cnH6%25252BDBs81P0B5qvo8OUf9ji%25252FQCb9eH4hXF2ugx2q0Zo%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa0b46234%2529%26quantity%3D1%26sessionID%3D258-9395839-2797152&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17127 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3Dl9JMdubk0tqM4KgXpnTTvwW9CS2u6%25252FVP1hq9IoZZEHPk7u8n1m8exRv5RnkGLQcJS6Yg6k9XbHh8eahIEhbjJr0Iyz8gP2RNAoXLHLAg4hnsS571sNGWts29LmfjuNxW52Ds%25252FicKjD4%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa49f8940%2529%26quantity%3D1%26sessionID%3D258-9395839-2797152&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17127 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DfPkyNiFCfme8BVJhn51A53KuTeNJgxCQU%25252FIn%25252FK4m44E0IIdjE%25252BE4RV%25252Fy%25252BxuUk%25252FhjRRvR%25252FOIEc1O2uCPB06G7k0RD6DAfV51ev9CgkQQz6tn5ETF2r1ouqB%25252F9sNqTKrmLmh%25252FNlc9Fz%25252Fg%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xb9397cd8%2529%26quantity%3D1%26sessionID%3D258-9395839-2797152&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.de/ring-video-doorbell-wired/dp/B08LR3G17D/ref=sr_1_2?keywords=ring&qid=1652445690&sr=8-2 line 17122 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_de&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.de%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB08LR3G17D%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DGwK4NCd%25252FJcBdLd6UCLdkKFHVQv7nVHTiUOCoonRsUaXCEeP%25252FPhTfwaMln1yU0MnVWI0VZyK9jCuDLv5NdzwgGTt32oapa2j%25252BBUO0WqQ08awRcFT%25252BMuWn4tllhhzKNdokkuniibDCxFo%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280xa27702b8%2529%26quantity%3D1%26sessionID%3D258-9395839-2797152&pageId=amazon_checkout_de&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1337 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.de"
+JavaScript warning: https://www.amazon.de/ap/signin line 1378 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652461087038	Marionette	INFO	Stopped listening on port 57440
+[Parent 23444, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:725
+[Parent 23444, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
